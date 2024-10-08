@@ -143,19 +143,19 @@ For each gene, a folder (named as the gene) is created for the results/plots and
 #### Trio sashimi plot
 
 <p align="center">
-  <img src="https://github.com/mmarchetti90/splicing_check/blob/main/images/sashimi-cleaned_all_samples.png">
+  <img src="https://github.com/mmarchetti90/splice_check/tree/main/images/sashimi-cleaned_all_samples.png">
 </p>
 
 #### Linear regression and outlier junctions
 
 <p align="center">
-  <img src="https://github.com/mmarchetti90/splicing_check/blob/main/images/proband_mother_linregress.png">
+  <img src="https://github.com/mmarchetti90/splice_check/tree/main/images/proband_mother_linregress.png">
 </p>
 
 #### Flagged junctions
 
 <p align="center">
-  <img src="https://github.com/mmarchetti90/splicing_check/blob/main/images/proband_flagged_junctions.png">
+  <img src="https://github.com/mmarchetti90/splice_check/tree/main/images/proband_flagged_junctions.png">
 </p>
 
 /// ---------------------------------------- ///
