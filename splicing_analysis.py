@@ -8,13 +8,6 @@
 class splice_check:
 
     """
-    Class for ...
-
-    Attributes
-    ----------
-
-    Methods
-    -------
     """
 
     def __init__(self, genes, gtf_path, bam_paths, samples, trio_vcf_path='', variants_of_significance=''):
@@ -183,8 +176,7 @@ class splice_check:
         # Keep only desired genes, if specified
         if len(genes):
             
-            exon_coords = exon_coords.loc[(exon_coords.gene_id.isin(genes)) |
-                                          (exon_coords.gene_id.isin(genes)),]
+            exon_coords = exon_coords.loc[exon_coords.gene_id.isin(genes),]
         
         # Drop duplicate exons
         exon_coords.drop_duplicates(subset=['gene_id', 'contig', 'start', 'stop'], keep='first', inplace=True)
